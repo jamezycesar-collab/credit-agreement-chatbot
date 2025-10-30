@@ -463,7 +463,7 @@ To extend or improve the system:
 
 ## License
 
-This implementation is provided as-is for educational and commercial use.
+This project is licensed under the MIT License.
 
 ## Support
 
@@ -476,5 +476,5 @@ For issues or questions:
 ---
 
 **Version**: 1.0.0  
-**Last Updated**: 2024  
+**Last Updated**: 2025  
 **Tested With**: Python 3.9+, LangChain 0.1.0, OpenAI API
