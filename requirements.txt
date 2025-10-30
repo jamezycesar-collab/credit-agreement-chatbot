@@ -1,0 +1,44 @@
+# Core LangChain and LLM dependencies
+langchain==0.1.0
+langchain-community==0.0.13
+langchain-openai==0.0.2
+openai==1.7.2
+
+# Vector stores
+faiss-cpu==1.7.4
+# For GPU support, use: faiss-gpu==1.7.4
+
+# Embeddings
+sentence-transformers==2.2.2
+
+# Document loaders
+pypdf==3.17.4
+pdfplumber==0.10.3
+docx2txt==0.8
+python-docx==1.1.0
+
+# Text processing
+tiktoken==0.5.2
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+# Optional but recommended for production
+# Redis for caching (optional)
+# redis==5.0.1
+
+# Monitoring and logging (optional)
+# langsmith==0.0.77
+
+# Alternative vector stores (choose one based on needs)
+# chromadb==0.4.22  # Alternative to FAISS
+# pinecone-client==3.0.0  # Cloud-based vector store
+# qdrant-client==1.7.0  # Alternative vector store
+
+# For enhanced PDF processing (optional)
+# PyMuPDF==1.23.8
+
+# For API deployment (optional)
+# fastapi==0.109.0
+# uvicorn==0.27.0
